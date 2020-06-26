@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PanRico Recien Horneado</title>
+    <!-- estos son los iconos que se buscan en google "font awesome cdn"-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- los sliders que se consiguen en google bxslider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- estos son los estilos-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- banner-->
+        <div id="cuerpoprincipal">
+            <header>
+                <div class="cabecera">
+                    <a href="#" id="logo">
+                        <img src="img/pics/panrico_Logotipo panrico.jpg" alt="">
+                    </a>
+
+                    <nav>
+                        <a href="#" id="menu-icon">
+                            <i class="fa fa-bars">
+                            </i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="index.html" class="current">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#productos">Productos</a>
+                            </li>
+                            <!--
+                            <li>
+                                <a href="#clientes">Clientes</a>
+                            </li>
+                            -->
+                            <li>
+                                <a href="#contactos"> Contactos</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- SLIDER -->
+
+            <div id="slide-wrap">
+                <section class=slider>
+                    <ul class="slider1">
+                        <div><img src="img/slider/Pan campesino.jpg" title="Pan Campesino"></div>
+                        <div><img src="img/slider/Pan de hamburguesa.jpg" title="Pan de Hamburguesa"></div>
+                        <div><img src="img/slider/Pan dulce.jpg" title="Pan Dulce"></div>
+                    </ul>
+                </section>
+            </div>
+
+        </div>
+    </div>
+    <footer class="cuerpoprod">
+
+        <div class="productos" id="productos">
+            <h3>PAN CAMPESINO</h3>
+            <img src="img/pics/Pan campesino.jpg">
+            <p>De origen español, su nombre se debe a la asociación que se hace del pan con los campesinos.
+                Inicialmente, ellos lo producían de gran tamaño y posteriormente porcionaban y consumían a lo largo de
+                los días.
+
+                Gracias a su versatilidad, funciona como acompañante para muchos productos de la cocina tradicional.
+
+                Una de las ventajas que tiene es que puede servir de base para deliciosas combinaciones. Y es que como
+                la mayor parte de los ingredientes que lo componen, excepto la sal, tienen por sí solo un sabor
+                prácticamente neutro; muy bien puede acompañar quesos, ensaladas o cremas.
+
+            </p>
+        </div>
+        <div class="productosmedio">
+            <h3>PAN DULCE</h3>
+            <img src="img/pics/Pan dulce.jpg">
+            <p>Es un pan que contiene los sabores típicos de la región andina gracias a los ingredientes naturales y al
+                fermento realizado un día antes, que luego de mezclarse con mucha fuerza, se dejaba descansar hasta el
+                día siguiente.
+
+                Con la mezcla de otros ingredientes se produce una masa de aroma muy particular, que era sobada a veces
+                con el puño de la mano o cilindros automáticos, cualquiera que fuera el método, la idea era presionar la
+                masa para sobarla.</p>
+        </div>
+        <div class="productos">
+            <h3>PAN DE HAMBURGUESA</h3>
+            <img src="img/pics/Pan de hamburguesa.jpg">
+            <p>Tiene forma redonda y una miga delicada, que se deshace sin ninguna dificultad en la boca.
+
+                En la corteza del pan encontramos pequeñas semillas de sésamo, que adornan el plato y le dan una
+                estética y sabor especial. Existe una variedad especial de este pan sin gluten, apto para celíacos.</p>
+        </div>
+    </footer>
+
+    <footer class="primerpie" id="contactos">
+                <div class="icon-text-text">
+                    <ul class="social">
+                        <li>
+                            <a href="tel:+584142771234" target="_blank">
+                                <i class="fa fa-mobile"></i>
+                            </a>
+                        </li>                        
+                        <li>
+                            <a href="mailto:panricove@gmail.com" target="_blank">
+                                <i class="fa fa-envelope-o"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com/panricove" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+    </footer>
+
+    <footer class="segundopie">
+        <p>&copy;
+            <a href="http://instagram.com/breyesafon" target="_blank">Desarrolloswebjbs</a>
+        </p>
+    </footer>
+    <script>
+        $(function () {
+            $('.slider1').bxSlider({
+                auto:true,
+                mode: 'fade',
+                speed: 150,
+                captions: false
+            })
+
+        })
+    </script>
+
+</body>
+
+</html>
