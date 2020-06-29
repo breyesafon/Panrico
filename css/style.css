@@ -32,7 +32,7 @@ header {
 header #logo img {
     margin: 0px;
     float: left;
-    height: 150px;
+    height:150px;
 }
 
 .cabecera li a {
@@ -190,7 +190,7 @@ footer {
 @media screen and (max-width: 760px) {
     
     #cuerpoprincipal {
-        padding:2% 2% 8% 2%;
+        padding:2% 2% 2% 2%;
     }
     
     p {
@@ -202,11 +202,17 @@ footer {
     header {
         margin: 0px 0px 0px 0px;
         position: relative;
-        height: 155px;
+        height: 90px;
     }
     header #logo {
         margin: 0% 0% 0% 0%;
     }
+
+    header #logo img {
+        height:75px;
+    }
+
+
     #menu-icon {
         display: inline-block;
         color: sienna;
@@ -244,7 +250,7 @@ footer {
       }
 
       .social i {
-        font-size: 120%;
+        font-size: 150%;
         margin: 0% 0% 0% 0%;
         padding: 5% 5% 5% 5%;
     }
